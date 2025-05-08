@@ -9,6 +9,7 @@
 		"dev": "nodemon --exec ts-node src/index.ts"
 	},
 	"devDependencies": {
+		"@types/lodash": "^4.17.16",
 		"@types/node": "^22.15.17",
 		"nodemon": "^3.1.10",
 		"ts-node": "^10.9.2",
@@ -16,6 +17,8 @@
 	},
 	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
 	"dependencies": {
-		"dotenv": "^16.5.0"
+		"axios": "^1.9.0",
+		"dotenv": "^16.5.0",
+		"lodash": "^4.17.21"
 	}
 }
